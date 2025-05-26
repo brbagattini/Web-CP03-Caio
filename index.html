@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Catálogo Online</h1>
+
+  <div class="filtros">
+    <select id="categoria">
+      <option value="todas">Todas</option>
+      <option value="Doces">Doces</option>
+      <option value="Salgados">Salgados</option>
+      <option value="Bebidas">Bebidas</option>
+    </select>
+    <label><input type="checkbox" id="disponivel"> Somente disponíveis</label>
+    <button id="filtrar">Filtrar</button>
+    <button id="listarTodos">Listar Todos</button>
+  </div>
+
+  <div id="produtos"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
